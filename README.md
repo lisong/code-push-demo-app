@@ -5,7 +5,7 @@ fork from https://github.com/Microsoft/react-native-code-push examples
 # ios eg.
 
 ```shell
-$ cd /path/to/react-native-code-push
+$ cd /path/to/code-push-demo-app
 $ npm install
 $ open ios/CodePushDemoApp.xcodeproj
 ```
@@ -13,7 +13,7 @@ $ open ios/CodePushDemoApp.xcodeproj
 # android eg.
 
 ```shell
-$ cd /path/to/react-native-code-push
+$ cd /path/to/code-push-demo-app
 $ npm install
 $ cd android
 $ ./gradlew assembleRelease
