@@ -2,7 +2,7 @@
 
 fork from https://github.com/Microsoft/react-native-code-push examples
 
-# ios eg.
+# iOS eg.
 
 ```shell
 $ cd /path/to/code-push-demo-app
@@ -20,9 +20,14 @@ $ ./gradlew assembleRelease
 $ cd app/build/outputs/apk #install app-release.apk into your phone
 ```
 
-# codepush热更新
+# codepush 热更新
 
-```
+```shell
+$ code-push login http://codepush.19910225.com:8080 #登录code-push-server
+$ code-push app add CodePushReactNativeDemo-ios  #iOS版
+$ code-push app add CodePushReactNativeDemo-android #android版
 $ cd /path/to/code-push-demo-app
-$ code-push release-react ios_CodePushDemo ios -d Production
+$ npm install
+$ code-push release-react CodePushReactNativeDemo-ios ios -d Production #发布到code-push-server ios
+$ code-push release-react CodePushReactNativeDemo-android android -d Production #发布code-push-server android
 ```
