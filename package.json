@@ -9,6 +9,6 @@
     "babel-preset-react-native-stage-0": "^1.0.1",
     "react": "^15.3.2",
     "react-native": "^0.35.0",
-    "react-native-code-push": "^1.14.4-beta"
+    "react-native-code-push": "^1.15.0-beta"
   }
 }
