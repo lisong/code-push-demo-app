@@ -33,7 +33,7 @@ public class MainApplication extends Application implements ReactApplication {
             "BPPCDEeergFkpHur4YNXCjqXVjR6qLF160UDg",
             getApplicationContext(), 
             BuildConfig.DEBUG,
-            "http://codepush.19910225.com:8080"
+            "http://codepush.19910225.com:8080/"
           )
       );
     }
