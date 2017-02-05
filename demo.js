@@ -95,7 +95,7 @@ class CodePushDemoApp extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to CodePush Version 1.0.3!
+          Welcome to CodePush!
         </Text>
         {syncButton}
         {syncView}
