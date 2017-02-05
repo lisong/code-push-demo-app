@@ -8,15 +8,15 @@
   },
   "dependencies": {
     "babel-preset-react-native-stage-0": "^1.0.1",
-    "react": "15.4.1",
-    "react-native": "0.39.2",
-    "react-native-code-push": "^1.16.1-beta"
+    "react": "15.4.2",
+    "react-native": "0.41.1",
+    "react-native-code-push": "^1.17.0-beta"
   },
   "devDependencies": {
     "babel-jest": "18.0.0",
     "babel-preset-react-native": "1.9.1",
-    "jest": "18.0.0",
-    "react-test-renderer": "15.4.1"
+    "jest": "18.1.0",
+    "react-test-renderer": "15.4.2"
   },
   "jest": {
     "preset": "react-native"

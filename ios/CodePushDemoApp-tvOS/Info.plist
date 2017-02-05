@@ -15,7 +15,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.3</string>
+	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
@@ -39,6 +39,7 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>NSAppTransportSecurity</key>
+	<!--See http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/ -->
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
@@ -47,16 +48,7 @@
 				<key>NSExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
 			</dict>
-			<key>codepush.19910225.com</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-			</dict>
 		</dict>
 	</dict>
-	<key>CodePushDeploymentKey</key>
-	<string>s5WBtIsn4HtLGFOCb6R2H8x5r9dlqLF160UDg</string>
-	<key>CodePushServerURL</key>
-	<string>http://codepush.19910225.com:8080/</string>
 </dict>
 </plist>
