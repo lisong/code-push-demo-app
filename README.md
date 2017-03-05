@@ -23,7 +23,7 @@ $ cd app/build/outputs/apk #install app-release.apk into your phone
 # codepush 热更新
 
 ```shell
-$ code-push login http://codepush.19910225.com:8080 #登录code-push-server
+$ code-push login http://api.code-push.com:8080 #登录code-push-server
 $ code-push app add CodePushReactNativeDemo-ios  #iOS版
 $ code-push app add CodePushReactNativeDemo-android #android版
 $ cd /path/to/code-push-demo-app
