@@ -59,6 +59,6 @@
     <key>CodePushDeploymentKey</key>
     <string>s5WBtIsn4HtLGFOCb6R2H8x5r9dlqLF160UDg</string>
     <key>CodePushServerURL</key>
-    <string>http://api.code-push.com:8080/</string>
+    <string>http://api.code-push.com/</string>
   </dict>
 </plist>
