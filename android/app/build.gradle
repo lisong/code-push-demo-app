@@ -72,6 +72,10 @@ import com.android.build.OutputFile
  * ]
  */
 
+project.ext.react = [
+    entryFile: "index.js"
+]
+
 apply from: "../../node_modules/react-native/react.gradle"
 apply from: "../../node_modules/react-native-code-push/android/codepush.gradle"
 
@@ -99,7 +103,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1
-        versionName "2.0.0"
+        versionName "2.1.0"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }

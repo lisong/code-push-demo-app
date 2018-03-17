@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import {
   AppRegistry,
   Dimensions,
@@ -7,11 +7,11 @@ import {
   Text,
   TouchableOpacity,
   View,
-} from "react-native";
+} from 'react-native';
 
 import CodePush from "react-native-code-push";
 
-class CodePushDemoApp extends Component {
+class App extends Component<{}> {
   constructor() {
     super();
     this.state = { restartAllowed: true };
@@ -157,6 +157,6 @@ const styles = StyleSheet.create({
  */
 let codePushOptions = { checkFrequency: CodePush.CheckFrequency.MANUAL };
 
-CodePushDemoApp = CodePush(codePushOptions)(CodePushDemoApp);
+App = CodePush(codePushOptions)(App);
 
-AppRegistry.registerComponent("CodePushDemoApp", () => CodePushDemoApp);
+export default App;
