@@ -1,11 +1,9 @@
 package com.codepushdemoapp;
 
 import android.app.Application;
-import android.util.Log;
 
 import com.facebook.react.ReactApplication;
 import com.microsoft.codepush.react.CodePush;
-import com.microsoft.codepush.react.CodePushBuilder;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -32,10 +30,11 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-          new CodePushBuilder(getResources().getString(R.string.reactNativeCodePush_androidDeploymentKey),getApplicationContext())
-                .setIsDebugMode(BuildConfig.DEBUG)
-                .setServerUrl(getResources().getString(R.string.reactNativeCodePush_androidServerURL))
-                .build()
+          new CodePush(
+            getResources().getString(R.string.reactNativeCodePush_androidDeploymentKey), 
+            getApplicationContext(), BuildConfig.DEBUG, 
+            getResources().getString(R.string.reactNativeCodePush_androidServerURL)
+          )
       );
     }
 
