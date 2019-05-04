@@ -1,4 +1,4 @@
-package com.codepushdemoapp;
+package com.codepushdemo;
 
 import android.app.Application;
 
